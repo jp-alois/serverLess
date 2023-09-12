@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cron Job List</title>
+</head>
+<body>
+    <h1>Cron Job List</h1>
+    <ul>
+        {% for job in jobs %}
+            <li>{{ job }}</li>
+        {% endfor %}
+    </ul>
+    <a href="/">Back to Home</a>
+</body>
+</html>
